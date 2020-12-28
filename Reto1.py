@@ -18,7 +18,7 @@ ws = sheets.worksheet("Reto1")
 data = ws.get_all_records()
 
 df=pd.DataFrame(data)
-#Only in the first execution because create the worksheet
+#Only in the first execution because create the worksheet, not quite the comment
 #salida = sheets.add_worksheet(title = "SalidaReto1", rows = 100, cols = 20)
 salida2= sheets.worksheet('SalidaReto1')
 
